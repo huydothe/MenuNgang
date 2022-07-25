@@ -1,0 +1,62 @@
+body{
+    font-family: "Times New Roman",Times,Serif;
+    font-size: 120%;
+}
+
+#menu{
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    border: 1px solid white;
+}
+
+#menu ul,li{
+    padding: 0;
+    margin: 0;
+}
+
+#menu li{
+    position: relative;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li a{
+    width: 100px;
+    height: 30px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    background-color: blueviolet;
+    color: white;
+}
+
+#menu ul ul li a{
+    width: 200px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#menu li a:hover{
+    background-color: red;
+    color: white;
+}
+
+#menu ul ul{
+    position: absolute;
+    top:30px;
+    left: 15px;
+    visibility: hidden;
+}
+
+#menu li:hover ul{
+    visibility: visible;
+}
+
+
+
+
